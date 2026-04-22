@@ -114,6 +114,7 @@ with st.sidebar:
         stop_prompt="Stop Recording",
         just_once=True,
         use_container_width=True,
+        format="wav",
         key='mic_recorder'
     )
     
