@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up"
+      ],
+      "responses": [
+        "Hello! I am the University Help Desk AI. How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What information are you looking for?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+      "responses": ["Sad to see you go :(", "Talk to you later!", "Goodbye! Have a great day!"]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When is the exam?",
+        "exam when?",
+        "date of exam?",
+        "What are the exam dates?",
+        "Could you tell me the exam schedule?",
+        "When do finals start?"
+      ],
+      "responses": [
+        "Final exams will begin on June 10th and run through June 24th.",
+        "The exam period starts on June 10th. You can check your personalized schedule on the student portal.",
+        "Exams are scheduled to start on June 10th."
+      ]
+    },
+    {
+      "tag": "courses_available",
+      "patterns": [
+        "What courses are available?",
+        "Can you list the courses?",
+        "What modules can I take?",
+        "course list",
+        "tell me about programs",
+        "what subjects are offered?"
+      ],
+      "responses": [
+        "We offer a wide variety of courses including Computer Science, Business, Engineering, and Arts. Please visit the university catalog page for the full list.",
+        "The university catalog lists all available courses. Major programs include Computer Science, Medical, Engineering, and Business."
+      ]
+    },
+    {
+      "tag": "assignment_deadlines",
+      "patterns": [
+        "What is the deadline for assignments?",
+        "assignment deadline?",
+        "when is the homework due?",
+        "when do I submit the project?",
+        "what are the due dates?"
+      ],
+      "responses": [
+        "Assignment deadlines vary by professor and course. Please refer to your course syllabus on the Learning Management System (LMS).",
+        "Check your LMS dashboard for specific assignment deadlines for each of your enrolled courses."
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": [
+        "When is the library open?",
+        "library hours",
+        "what time does the library close?",
+        "is the library open on weekends?"
+      ],
+      "responses": [
+        "The main campus library is open Monday to Friday from 8:00 AM to 10:00 PM, and weekends from 10:00 AM to 6:00 PM.",
+        "Library hours are 8 AM to 10 PM on weekdays, and 10 AM to 6 PM on the weekends."
+      ]
+    },
+    {
+      "tag": "admission_info",
+      "patterns": [
+        "How do I apply?",
+        "What are the admission requirements?",
+        "application process",
+        "how to get into the university?"
+      ],
+      "responses": [
+        "You can apply online via the Admissions portal. The deadline for Fall semester is May 1st.",
+        "To apply, submit your high school transcripts, standardized test scores, and an essay through our admissions portal."
+      ]
+    }
+  ]
+}
